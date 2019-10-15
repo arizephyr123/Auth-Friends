@@ -18,9 +18,9 @@ function App() {
           </li>
         </ul>
         <Switch>
-          <PrivateRoute path="/protected" component={FriendsList} />
-          Route path="/login" component={Login} />
-          Route component={Login} />
+          <Route path="/protected" component={FriendsList} />
+          <Route path="/login" component={Login} />
+          <Route component={Login} />
         </Switch>
       </div>
     </Router>
